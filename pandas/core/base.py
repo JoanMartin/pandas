@@ -799,13 +799,13 @@ class IndexOpsMixin(object):
 
         Examples
         --------
-        >>> idx = pd.Index([1, 6, 8, 3, 4])
+        >>> idx = pd.Index([3, 2, 1])
         >>> idx.max()
-        8
+        3
 
-        >>> idx = pd.Index(['Ant', 'Bear', 'Cow', 'Dog', 'Falcon'])
+        >>> idx = pd.Index(['c', 'b', 'a'])
         >>> idx.max()
-        'Falcon'
+        'c'
         """
         return nanops.nanmax(self.values)
 
