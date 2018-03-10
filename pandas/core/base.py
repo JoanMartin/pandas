@@ -793,9 +793,14 @@ class IndexOpsMixin(object):
         Return the maximum value of the object within the same type.
         Remember you also can access to a Dataframe's index as Dataframe.index.
 
+        Returns
+        -------
+        object
+            Maximum value.
+
         See Also
         --------
-        pandas.Index.min: Return the minimum value of the object.
+        Index.min : Return the minimum value of the object.
 
         Examples
         --------
